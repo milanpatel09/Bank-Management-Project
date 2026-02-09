@@ -1,17 +1,22 @@
-# Bank Account Management System
+# 🏦 Bank Account Management System
 
 A Python-based Command Line Interface (CLI) application that simulates a simple banking system. This application allows users to create accounts, manage transactions, and update user information, with all data persisted locally using a JSON file.
 
 ## 📋 Features
 
-* **Account Creation**: Create a new bank account with validation (Age verification, valid email check, and 4-digit PIN).
-* **Unique ID Generation**: Automatically generates a secure, randomized alphanumeric Account ID.
-* **Deposit Money**: Add funds to your account (includes limits checking).
-* **Withdraw Money**: Withdraw funds (includes sufficient balance checking).
-* **View Details**: Check current balance and account profile.
-* **Update Information**: Modify Name, Email, or PIN (sensitive fields like Age and Balance are protected).
-* **Delete Account**: Remove an account permanently from the database.
-* **Persistent Storage**: All data is saved automatically to `data.json`, ensuring data remains after the program closes.
+* Create a new bank account  
+* Deposit money  
+* Withdraw money  
+* View account details  
+* Update account information  
+* Delete an account  
+* Data persistence using JSON
+
+## 🧰 Technologies Used
+
+- Python 3
+- JSON
+- Object-Oriented Programming (OOP)
 
 ## 🛠️ Prerequisites
 
@@ -32,7 +37,7 @@ A Python-based Command Line Interface (CLI) application that simulates a simple 
 
 3.  **Using the System**
     Follow the on-screen menu prompts to navigate the system:
-    * Enter `1` to create an account. **Important:** Note down the generated Account ID!
+    * Enter `1` to create an account. **Important:** Note down the generated Account ID and pin!
     * Enter `2` or `3` to perform transactions using your Account ID and PIN.
     * Enter `7` to save and exit safely.
 
